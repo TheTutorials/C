@@ -10,4 +10,4 @@
 
 ### 变量
 * [x] [什么是变量](variable/what-is-variable.md)
-* [ ] [变量的声明及关键词](variable/variable-and-keywords.md)
+* [x] [变量的声明及关键词](variable/variable-and-keywords.md)
