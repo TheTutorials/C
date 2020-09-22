@@ -294,3 +294,7 @@ int main() {
 * 递归速度慢,消耗内存高，循环速度快，消耗内存低
 * 无限递归会导致系统崩溃，而无限循环会消耗 `CPU` 周期
 * 递归使代码更小巧，而迭代使代码更长。
+
+
+## 练习
+* [n 的 k次幂函数](https://github.com/TheAlgorithms/C/blob/master/misc/power_recursion.c)
