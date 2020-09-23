@@ -127,7 +127,7 @@ int main() {
     fact(3) = 3 * fact(2)
     fact(2) = 2 * fact(1)
     fact(1) = 1 * fact(0)
-    fact(0) = 0     # 递归出口
+    fact(0) = 1     # 递归出口
     ```
 
     调用过程关系图如下  
@@ -143,7 +143,7 @@ int main() {
 
     * 递归结束条件
 
-        本案例中递归结束条件是: `n == 0`
+        本案例中递归结束条件是: `n == 0` 或者 `n == 1`
     * 递归的调用公式
 
         本案例中递归的公式是: `fact(n) = n * fact(n - 1)`
@@ -163,7 +163,7 @@ int main() {
      * 计算 n 的阶乘
      */
     int fact(int n) {
-        if (n == 0) {
+        if (n == 0 || n == 1) {
             return 1;
         } else {
             return n * fact(n - 1);
