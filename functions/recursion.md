@@ -298,3 +298,4 @@ int main() {
 
 ## 练习
 * [n 的 k次幂函数](https://github.com/TheAlgorithms/C/blob/master/misc/power_recursion.c)
+* [求解字符串长度]()
