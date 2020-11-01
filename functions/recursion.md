@@ -295,5 +295,4 @@ int main() {
 
 
 ## 练习
-* 递归求解 n 的 k次幂函数
-* 递归求解字符串长度
+* [经典递归程序案列汇总(C语言版本)](https://github.com/shellhub/blog/issues/46)
